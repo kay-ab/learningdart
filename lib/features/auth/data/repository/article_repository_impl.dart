@@ -12,6 +12,7 @@ import 'package:learningdart/core/constants/constants.dart';
 class ArticleRepositoryImpl implements ArticleRepository {
     final NewsApiService _newsApiService;
     ArticleRepositoryImpl(this._newsApiService);
+    @override
     Future<DataState<List<ArticleModel>>> getNewsArticles() async {
     try {
         final httpResponse = await _newsApiService.getNewsArticles(
