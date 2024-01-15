@@ -56,14 +56,18 @@ dependencies:
 
   #chached image
   cached_network_image: ^3.2.0
+  retrofit: ^4.0.3
+  json_annotation: ^4.8.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
-  retrofit_generator: ^3.0.1+1
-  floor_generator: ^1.2.0
-  build_runner: ^2.1.2
+  build_runner: ^2.4.8
+  floor_generator: ^1.4.2
+  retrofit_generator: ^8.0.6
+  analyzer: 5.13.0
+  json_serializable: ^6.7.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
